@@ -25,6 +25,9 @@ digital_out pneumatics1 = digital_out(Brain.ThreeWirePort.A);
 digital_out pneumatics2 = digital_out(Brain.ThreeWirePort.B);
 controller Controller1 = controller(primary);
 
+bool pneumatic1Toggle = false;
+bool pneumatic2Toggle = false;
+
 // VEXcode generated functions
 // define variable for remote controller enable/disable
 bool RemoteControlCodeEnabled = true;

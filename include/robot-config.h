@@ -12,6 +12,8 @@ extern motor MogoLift;
 extern digital_out pneumatics1;
 extern digital_out pneumatics2;
 extern controller Controller1;
+extern bool pneumatic1Toggle;
+extern bool pneumatic2Toggle;
 
 /**
  * Used to initialize code/tasks/devices added using tools in VEXcode Pro.

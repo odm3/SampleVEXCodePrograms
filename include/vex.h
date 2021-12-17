@@ -16,6 +16,8 @@
 #include "v5_vcs.h"
 
 #include "robot-config.h"
+#include "auton_base_functions.h"
+#include "auton_scenarios.h"
 
 #define waitUntil(condition)                                                   \
   do {                                                                         \
